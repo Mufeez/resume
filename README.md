@@ -6,6 +6,8 @@
 ---
 
 ### 📥 Download Resume
+> **[🌐 View Live Website](https://Mufeez.github.io/resume/)**
+>
 > **[Click here to view/download the PDF version of this resume](./Mohammad_Mufeez_Resume.pdf)**
 > *(Note: After saving this page as a PDF, upload it to this repository as 'Mohammad_Mufeez_Resume.pdf')*
 
