@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Mufeez Ahmed - Solution Architect Resume</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --light-grey: #f4f4f4;
+            --border-color: #ddd;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            color: var(--text-color);
+            background-color: var(--light-grey);
+            padding: 40px 0;
+        }
+
+        .resume-container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        header {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            color: var(--accent-color);
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 14px;
+            color: var(--secondary-color);
+        }
+
+        .contact-info span {
+            display: flex;
+            align-items: center;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 18px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .summary {
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .experience-item {
+            margin-bottom: 20px;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+        .company-info {
+            display: flex;
+            justify-content: space-between;
+            font-style: italic;
+            color: var(--secondary-color);
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .skill-category {
+            font-size: 14px;
+        }
+
+        .skill-category strong {
+            color: var(--primary-color);
+        }
+
+        .cert-awards-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+
+        .item-detail {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        @media print {
+            body {
+                background-color: white;
+                padding: 0;
+            }
+            .resume-container {
+                box-shadow: none;
+                max-width: 100%;
+                width: 100%;
+                padding: 0;
+            }
+            a {
+                text-decoration: none;
+                color: var(--text-color);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <header>
+            <h1>Mohammad Mufeez Ahmed</h1>
+            <div class="subtitle">Solution Architect | AWS Certified Solutions Architect – Professional | Lead SDET</div>
+            <div class="contact-info">
+                <span>📍 Hyderabad, Telangana, India</span>
+                <span>📧 mufeezchitguppa@gmail.com</span>
+                <span>📞 00918861710458</span>
+                <span>🔗 linkedin.com/in/mufeezahmed</span>
+                <span>💻 github.com/Mufeez</span>
+            </div>
+        </header>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p class="summary">
+                Visionary <strong>Solution Architect</strong> with an <strong>AWS Solutions Architect – Professional</strong> certification and deep-rooted expertise in <strong>Quality Engineering (SDET)</strong>. Specialized in designing scalable, multi-tenant e-commerce architectures and high-availability cloud infrastructures. Unique "Quality-First" architectural approach, having grown engineering teams from 1 to 7 members and secured first-million-dollar milestones for startups. Expert in Blue-Green deployment strategies, enterprise integrations (Tally/Zoho), and building robust automation frameworks that reduce validation cycles by up to 90%.
+            </p>
+        </section>
+
+        <section>
+            <h2>Core Competencies</h2>
+            <div class="skills-grid">
+                <div class="skill-category"><strong>Architecture:</strong> Multi-tenant Design, Microservices, Blue-Green Deployment, Cloud Native, SOA, API Ecosystems</div>
+                <div class="skill-category"><strong>Cloud & DevOps:</strong> AWS (Pro Certified), GCP, Kubernetes (GKE), Docker, IaC, Auto-scaling</div>
+                <div class="skill-category"><strong>Quality Engineering:</strong> Framework Design (POM), Webdriver.io, Cypress.io, API Validation, CI/CD</div>
+                <div class="skill-category"><strong>Development:</strong> Node.js, Express, MongoDB (SQL to NoSQL), Redis, React, React Native</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span>Solution Architect & Lead SDET</span>
+                    <span>September 2021 – Present</span>
+                </div>
+                <div class="company-info">
+                    <span>Ibexlabs</span>
+                    <span>Hyderabad, India</span>
+                </div>
+                <ul>
+                    <li>Designed and delivered a responsive e-commerce platform architecture serving 1500+ users across App Store and Play Store.</li>
+                    <li>Architected and implemented a zero-downtime Blue-Green deployment strategy on Kubernetes (GKE) with automated health probes and horizontal autoscaling.</li>
+                    <li>Designed enterprise-grade integration layers for Tally Prime 4.0 and Zoho Books, automating complex financial data synchronization.</li>
+                    <li>Built and led the QA engineering team from 1 to 7 members with zero attrition, directly contributing to the acquisition of the first 40+ Enterprise Customers and $1M revenue.</li>
+                    <li>Architected 4+ automation frameworks from scratch using POM patterns, reducing validation time from 2 days to 30 minutes.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span>Software Development Engineer In Test (Architectural Focus)</span>
+                    <span>March 2019 – September 2021</span>
+                </div>
+                <div class="company-info">
+                    <span>ValueLabs</span>
+                    <span>Hyderabad, India</span>
+                </div>
+                <ul>
+                    <li>Orchestrated architectural initiatives for Digital Transformation, leading seamless data migration from SQL to NoSQL, reducing post-launch issues by 40%.</li>
+                    <li>Automated validation ecosystems using Webdriver.io and Cypress.io, achieving a 60% reduction in testing effort and 30% improvement in product stability.</li>
+                    <li>Championed cross-functional collaboration to deliver a SaaS product to 100+ Enterprise users.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span>Software Development Engineer In Test</span>
+                    <span>November 2018 – March 2019</span>
+                </div>
+                <div class="company-info">
+                    <span>ABB</span>
+                    <span>Bangalore, India</span>
+                </div>
+                <ul>
+                    <li>Delivered API architectures for IoT Edge devices across 10+ industries using the ABB Ability IoT platform.</li>
+                    <li>Automated API validation using C#, Rest Assured, and SpecFlow, improving efficiency by 40%.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span>Software Development Engineer In Test</span>
+                    <span>May 2017 – November 2018</span>
+                </div>
+                <div class="company-info">
+                    <span>Tech Mahindra</span>
+                    <span>Hyderabad, India</span>
+                </div>
+                <ul>
+                    <li>Architected a validation strategy for Outlook Plugin APIs that slashed turnaround time from 2 days to 10 minutes (80% gain).</li>
+                    <li>Recognized for rapid framework mastery, learning and implementing new stacks within 2 months.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span>System Test Engineer (Innovation Award Winner)</span>
+                    <span>July 2012 – February 2017</span>
+                </div>
+                <div class="company-info">
+                    <span>Siemens</span>
+                    <span>Bangalore / Munich</span>
+                </div>
+                <ul>
+                    <li>Won prestigious awards for proposing Cloud Computing architectures in Munich, Germany, securing $200,000 in prototyping funding.</li>
+                    <li>Disclosed 2 inventions and proposed 8 cloud computing ideas; raised 400+ bugs during lifecycle.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Licenses & Certifications</h2>
+            <div class="item-detail"><strong>AWS Certified Solutions Architect – Professional</strong> (July 2023 – July 2026)</div>
+            <div class="item-detail"><strong>ISTQB Certified Tester Foundation Level</strong> (International Software Testing Qualifications Board)</div>
+        </section>
+
+        <section>
+            <h2>Honors & Awards</h2>
+            <div class="item-detail"><strong>Inspire All Awards (2022 & 2023):</strong> For leadership in bridging architecture and quality at Ibexlabs.</div>
+            <div class="item-detail"><strong>Second Place, SIEMENS Cloud Ideas Contest (Munich):</strong> For architectural excellence in cloud management.</div>
+            <div class="item-detail"><strong>Finalist, Siemens Hackathon:</strong> PoC for supply chain optimization using Data Analytics.</div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="experience-header">
+                <span>RV College Of Engineering</span>
+                <span>2008 – 2012</span>
+            </div>
+            <div class="item-detail">Bachelor’s Degree, Electrical and Electronics Engineering</div>
+            <ul>
+                <li>Focused on Propulsion Systems (Matlab) and automated micro-controller based control systems.</li>
+                <li>Internship at 220 KV Power distribution center.</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
